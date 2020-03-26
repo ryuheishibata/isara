@@ -224,51 +224,17 @@ h3{
   text-align:center;
 }
 .skill5{
-  
+  width:600px;
+  margin:0 auto;
 }
 .skills{
   height: 180px;
-  width: 122px;
+  width: 120px;
   float:left;
-  margin:0 auto;
+  text-align:center;
+  margin-top:50px;
 }
 
-.feature{
-  width:980px;
-  margin:0 auto;
-}
-.sublist{
-  font-size: 20px;
-}
-.sub{
-  text-align: center;
-}
-.fa-code{
-  font-size:60px;
-  padding-bottom: 10px;
-}
-.fa-desktop{
-  font-size:60px;
-  padding-bottom: 10px;
-}
-.fa-cogs{
-  font-size:60px;
-  padding-bottom: 10px;
-}
-
-.profile{
-  width:100%;
-  background-color:#ECEFF1;
-}
-.profile-box{
-  width:1024px;
-  margin: 0 auto;
-}
-.program{
-  margin-top: 5px;
-  font-size:16px;
-  color:#000000;
-}
 .contact{
   width:100%;
   background-image:url(img/code.png);
@@ -282,19 +248,33 @@ h3{
 .step-list{
   margin:0 auto;
   text-align:center;
+  width:960px;
+  height: 400px;
 }
 .step{
   background:white;
-  width:200px;
-  height: 100px;
+  width:300px;
+  height: 200px;
   float:left;
   margin-left:20px;
+}
+.step1{
+  background: #ebb94d;
+  margin:20px 20px 0 20px;
+  color:white;
+}
+.step2{
+  margin-top:30px;
 }
 .skill-up{
   background:#016ea9;
   width:100%;
   height:150px;
   color:white;
+  padding-top:50px;
+}
+.another{
+  color:#ebb94d;
 }
 
 .study{
@@ -308,16 +288,25 @@ h3{
   padding-bottom:40px;
   text-align: center;
 }
+.todo-list{
+  width:800px;
+  margin:0 auto;
+}
 .todo{
   background: #ebb94d;
   text-align:center;
   margin:0 auto;
-  width:100px;
-  height: 100px
-  border-radius:50px;
+  width:150px;
+  height:150px;
+  border-radius:75px;
+  padding-top:55px;
+  float:left;
+  margin-left:50px;
+  color:white;
 }
 .text2{
   margin-top:100px;
+  text-align:center;
 }
 .merit{
   background: #352525;
