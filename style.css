@@ -19,6 +19,9 @@ a {
     background-color: #EC715F;
     margin:8px auto 0 auto;
 }
+.center{
+  text-align:center;
+}
 header{
   position: fixed;
   width:100%;
@@ -112,6 +115,9 @@ header{
   color:red;
   padding-bottom:10px;
 }
+.real{
+  background: white;
+}
 
 /*以下class名link_buttonのデザイン*/
 .link_button1 {
@@ -148,7 +154,7 @@ header{
 /*鍵括弧初め*/
 .parenthesis {
   position: relative;
-  width: 500px;
+  width: 700px;
   padding: 15px 30px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -309,9 +315,24 @@ h3{
   text-align:center;
 }
 .merit{
-  background: #352525;
+  background-color: #fef5e0;
   width:100%;
   height: 800px;
+}
+.box2{
+  width: 960px;
+  margin:0 auto;
+}
+.box3{
+  float:left;
+  width: 300px;
+  margin-left:20px;
+  height: 400px;
+}
+.box4{
+  background-image:url(img/webcamp.png);
+  width:300px;
+  height: 200px;
 }
 .member{
   background-image:url(img/talk.jpg);
@@ -319,14 +340,46 @@ h3{
   height: 1500px;
 }
 .can{
-  background: yellow;
+  background: #ebb94d;
   width:100%;
-  height:300px;
+  height:400px;
+}
+.qa{
+  background:white;
+  width:100px;
+  height: 100px;
+  border-radius: 50px;
+  text-align:center;
+  padding-top:40px;
+  margin:0 auto;
+  color:#ebb94d;
+  margin-top:30px;
 }
 .yes{
   background: white;
   width:100%;
   height:1200px;
+}
+.triangle{
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-top: 40px solid #ebb94d;
+  border-right: 40px solid transparent;
+  border-left: 40px solid transparent;
+}
+.men{
+  width:800px;
+  margin:0 auto;
+  margin-top:60px;
+}
+.revue{
+  background-image:url(img/my-icon.jpg);
+  width:200px;
+  height:200px;
+  float:left;
+  border:solid #ebb94d;
+  margin-right: 100px;
 }
 .contents{
   background: #000000;
