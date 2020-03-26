@@ -523,6 +523,9 @@ border-collapse: collapse
 .get{
   background:#ebb94d;
   height:690px;
+  position:relative;
+}
+.nice-get{
 }
 .gets{
   background: white;
@@ -538,8 +541,13 @@ border-collapse: collapse
 }
 .get2{
   margin:0 auto;
-  width:900px;
+  width:1000px;
   border:2px solid white;
+  height:400px;
+  position:absolute;
+  left:0;
+  right:0;
+  top:200px;
 }
 .not{
   background: #000000;
@@ -566,6 +574,63 @@ border-collapse: collapse
 .form{
   background:#ebb94d;
   height: 900px
+}
+.cp_iptxt {
+  position: relative;
+  width: 80%;
+  margin: 40px auto;
+  height: 40px;
+}
+.cp_iptxt input[type='text'] {
+  font: 15px/24px sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  transition: 0.3s;
+  letter-spacing: 4px;
+  color: #aaaaaa;
+  border: 1px solid white;
+  border-radius: 4px;
+  height:50px;
+}
+.ef input[type='text']:focus {
+  border: 1px solid #016ea9;
+  outline: none;
+}
+.cp_iptxt1 {
+  position: relative;
+  width: 80%;
+  margin: 40px auto;
+  margin-bottom: 200px;
+  height: 40px;
+}
+.cp_iptxt1 textarea {
+  font: 15px/24px sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  transition: 0.3s;
+  letter-spacing: 4px;
+  color: #aaaaaa;
+  border: 1px solid white;
+  border-radius: 4px;
+  height:120px;
+}
+.ef textarea:focus {
+  border: 1px solid #016ea9;
+  outline: none;
+}
+/*以下class名link_buttonのデザイン*/
+.link_button2 {
+  font-weight: bold;/*太字に*/
+  text-decoration: none;/*下線消す*/
+  background: #EC715F;/*背景を水色に*/
+  color:white;/*文字を白に*/
+  padding:12px 300px;/*内側の余白*/
+  border-radius: 20px;/*角を丸くする*/
+  margin:100px;/*上下に中央寄せ*/
+  height:40px;
+  width:80%;
+  margin:0 auto;
+  text-align:center;
 }
 .question{
   background: white;
