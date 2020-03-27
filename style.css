@@ -6,6 +6,10 @@
 a {
   text-decoration: none;
 }
+.wrap {
+  overflow: hidden;
+}
+
 .clearfix::after {
   content: "";
   display: block;
@@ -24,6 +28,9 @@ a {
 }
 .white{
   color:white;
+}
+.pc{
+  display: none;
 }
 header{
   position: fixed;
@@ -65,27 +72,32 @@ header{
   text-align: center;
 }
 .container{
-  width:1024px;
+  width:1190px;
   height: 70px;
   margin:0 auto;
 }
 
 .logo{
-  width:250px;
+  width:130px;
   float:left;
+  margin-top:12px;
+  margin-left:3%;
 }
 
 .nav-list-item{
   float:left;
   list-style: none;
-  padding-top:50px;
-  margin-top:0px;
   font-size:16px;
+  margin-bottom:12px;
+  margin-top:36px;
 }
 .nav-list{
   list-style:none;
+  padding-left:0;
 }
-
+.link1{
+  display:none;
+}
 /*以下class名link_buttonのデザイン*/
 .link_button {
   font-weight: bold;/*太字に*/
@@ -113,19 +125,18 @@ header{
   width:100%;
   height: 500px;
   background-image: url(img/mv.png);
+  position: center;
   background-size: cover;
   background-position:center;
   color:white;
   text-align:center;
+  padding-top:200px;
 }
 
 .section-top{
-  font-size: 30px;
-  padding-top:200px;
   text-align: center;
 }
 .simply{
-  font-size: 20px;
   padding-bottom:356px;
   text-align: center;
   padding-top: 10px;
@@ -155,24 +166,28 @@ header{
 
 /*以下class名link_buttonのデザイン*/
 .link_button1 {
+  width:80%;
+  height:60px;
+  text-align:center;
   font-weight: bold;/*太字に*/
   text-decoration: none;/*下線消す*/
   background: #EC715F;/*背景を水色に*/
   color:white;/*文字を白に*/
-  padding:5px 10px;/*内側の余白*/
-  border-radius: 20px;/*角を丸くする*/
-  font-family: 'Avenir','Arial';/*フォントをいい感じに*/
+  padding-top:14px;/*内側の余白*/
+  border-radius: 30px;/*角を丸くする*/
+  margin:0 auto;
 }
 /*以下カーソルを当てたとき*/
 .link_button1:hover {
-  background: silver;/*背景色をシルバーに*/
+  background:#EC7100 ;/*背景色をシルバーに*/
   text-decoration: none;/*下線を消す*/
 }
-
 /*以下訪問済みのデザイン*/
 .link_button1:visited {
   color: gray;/*文字をグレイに*/
 }
+
+
 .link{
   text-align:center;
 }
@@ -636,6 +651,7 @@ border-collapse: collapse
   background: white;
   height: 1500px;
 }
+
 footer {
   width: 100%;
   height: 180px;
@@ -647,227 +663,70 @@ footer {
   padding-top:30px;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1190px){
 
-header{
-  width:100%;
-  height: 50px;
-}
 .container{
-  width:90%;
-  height: 50px;
-  margin:0 auto;
+  width:100%;
+  padding-right:10px;
 }
-.logo-image{
-  height: 50px;
-  float: left
+h1{
+  font-size:24px;
 }
-
-.nav-list-item{
- display:none;
+h2{
+  font-size:20px;
 }
-#humberger {
-  position: relative;
-  height: 30px;
-  width: 30px;
-  display: inline-block;
-  box-sizing: border-box;
-  border: 1px solid white;
-  margin-top:10px;
-  margin-bottom: 10px;
-  float:right;
+h3{
+  font-size:16px;
 }
-#humberger div {
-  position: absolute;
-  left: 4px;
-  height: 1px;
-  width: 20px;
-  background-color: white;
-  display: inline-block;
-  box-sizing: border-box;
+h4{
+  font-size:12px;
 }
-#humberger div:nth-of-type(1) {
-  top: 6px;
-}
-#humberger div:nth-of-type(2) {
-  top: 14px;
-}
-#humberger div:nth-of-type(3) {
-  top: 22px;
+h5{
+  font-size:10px;
 }
 
+}
+
+@media screen and (max-width: 770px){
+
+h1{
+  font-size:20px;
+}
+h2{
+  font-size:16px;
+}
+h3{
+  font-size:12px;
+}
+h4{
+  font-size:10px;
+}
+h5{
+  font-size:6px;
+}
 .main-visual{
-  width:100%;
-  height: 650px;
-  background-image: url(img/code.png);
-  background-size: cover;
-  background-position:center;
-  color:white;
+  height: 320px;
+  padding-top:100px;
 }
-
-.lorem-lpsum{
-  font-size: 40px;
-  padding-top:200px;
-  text-align: center;
-}
-.simply{
-  font-size: 18px;
-  text-align: center;
-  padding-top: 10px;
-}
-.box1{
-  width:90%;
-  margin:0 auto;
-}
-.subtitle{
-  font-size: 32px;
-  color:#000000;
-  padding-top: 90px;
-  text-align:center;
-}
-.profile{
-  width:100%;
-  background-color:#ECEFF1;
-  background-size: cover;
-  background-position:center;
-}
-.photo-box{
-  padding-top:30px;
-  padding-bottom: 90px;
-}
-.photo-box1{
-display: none;
-}
-.photo-box2{
-  background-image:url(img/websuku.png);
-  width:300px;
-  height:250px;
-  background-size: cover;
-  background-position: center;
-  float:none;
-  margin:0 auto;
-}
-.photo-box3{
-  display:none;
-}
-.photo-box4{
-  background-image:url(img/webcamp.png);
-  width:300px;
-  height:250px;
-  background-size: cover;
-  background-position: center;
-  margin:10px auto;
-  float:none;
-}
-.photo-box5{
-  display:none;
-}
-.photo-box6{
-  background-image:url(img/webcamp-mother.png);
-  width:300px;
-  height:250px;
-  background-size: cover;
-  background-position: center;
-  margin:0 auto;
-  float:none;
-}
-.feature{
-  width:90%;
-  margin:0 auto;
-}
-.sublist{
-  font-size: 20px;
-}
-.sub{
-  text-align: center;
-}
-.fa-code{
-  font-size:60px;
-  padding-bottom: 10px;
-}
-.fa-desktop{
-  font-size:60px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-.fa-cogs{
-  font-size:60px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-.srength-text{
-  padding-top: 10px;
-  text-align: left;
-}
-
-.f-box{
-  padding-bottom: 90px;
-  padding-top:30px;
-}
-
-.profile-box{
-  width:90%;
-  margin: 0 auto;
-}
-.profile-main{
-  padding-top: 30px;
-  padding-bottom: 90px;
-}
-.my-face{
-  width:100%;
-  float:none;
-}
-.profile-img{
-  margin-bottom: 20px;
-}
-.profile-text{
-  width:100%;
-  float:none;
-  text-align:center;
-}
-.name{
-  margin-top: 5px;
-  margin-bottom: 20px;
-  font-size:16px;
-  color:#000000;
-}
-.program{
-  margin-top: 5px;
-  font-size:16px;
-  color:#000000;
-}
-.contact{
-  width:90%;
-  margin:0 auto;
-}
-
-.message{
-  width:100%;
-  float:none;
-}
-.message-box{
-  text-align:center;
-}
-
-
-.fa-twitter{
-  font-size:50px;
-  padding:0 8px;
-}
-.discription-text{
-  padding-top: 5px;
-  padding-bottom: 20px
-}
-
-footer {
-  width: 100%;
+header{
   height: 60px;
-  text-align: center;
-  background-color:#EC715F;
-  font-size:16px;
-  padding-top: 22px;
-  color:#FAFAFA;
 }
-br.pc{
+.link_button{
   display:none;
-}}
+}
+.link1{
+  color:white;
+  background: #EC715F;
+  width:60px;
+  height:60px;
+  position:absolute;
+  top:0;
+  right:0;
+  text-align:center;
+  font-size:12px;
+  padding-top:14px;
+}
+.pc{
+  display:block;
+}
+}
